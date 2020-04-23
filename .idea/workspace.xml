@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="af1d6d24-a235-4032-b038-4dc0356c3a81" name="Default Changelist" comment="">
+    <list default="true" id="af1d6d24-a235-4032-b038-4dc0356c3a81" name="Default Changelist" comment="Python data preprocessing">
+      <change afterPath="$PROJECT_DIR$/linear_regression/50_Startups.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linear_regression/Salary_Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linear_regression/multiple_linear_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linear_regression/simple_linear_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +35,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1arXTCEMyM5PZsnp4LVcUYCukcS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -29,12 +54,13 @@
       <recent name="C:\Users\lmwol\PycharmProjects\machine_learning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lmwol\PycharmProjects\machine_learning\data_preprocessing" />
+      <recent name="C:\Users\lmwol\PycharmProjects\machine_learning\linear_regression" />
       <recent name="C:\Users\lmwol\PycharmProjects\machine_learning" />
+      <recent name="C:\Users\lmwol\PycharmProjects\machine_learning\data_preprocessing" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="data_preprocessing_tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="simple_linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -42,11 +68,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear_regression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_preprocessing/data_preprocessing_tools.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear_regression/simple_linear_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -57,7 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_preprocessing_tools" />
+        <item itemvalue="Python.simple_linear_regression" />
       </list>
     </recent_temporary>
   </component>
@@ -72,13 +98,42 @@
       <option name="presentableId" value="Default" />
       <updated>1587494691421</updated>
     </task>
+    <task id="LOCAL-00001" summary="Python data preprocessing">
+      <created>1587554464745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587554464745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Python data preprocessing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python data preprocessing" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587554202138">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587566339224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587554202138" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587566339224" />
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1587554667566">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587554667566" />
     <state x="541" y="262" key="Github.ShareDialog" timestamp="1587494847065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -87,26 +142,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="464" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587494871941" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587554140014">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587593938603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587554140014" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587554140014">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587593938603" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587593938603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587554140014" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587554140014">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587593938603" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587593938603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587554140014" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587554140014">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587593938603" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587593938603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587554140014" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587593938603" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1587495310823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587495310823" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587555739475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587555739475" />
+    <state x="475" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1587554359580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728@0.0.1366.728" timestamp="1587554359580" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587554514887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1587554514887" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1587554093520">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
